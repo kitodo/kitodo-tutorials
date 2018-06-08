@@ -6,4 +6,4 @@
 
 ------
 
-<p align="center">Vorige Seite: [1. Arbeitsumgebung](01_arbeitsumgebung.md) | Nächste Seite: [3. ...](.md)</p>
+<p align="center">Vorige Seite: <a href="01_arbeitsumgebung.md">1. Arbeitsumgebung</a> | Nächste Seite: <a href="">3. ...</a></p>

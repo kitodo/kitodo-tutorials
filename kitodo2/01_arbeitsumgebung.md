@@ -19,4 +19,4 @@ Im Workshop nutzen wir den öffentlich zugänglichen Demo-Server von Zeutschel.
 
 ------
 
-<p align="center">Vorige Seite: [Startseite](README.md) | Nächste Seite: [2. Projekt anlegen](02_projekt-anlegen.md)</p>
+<p align="center">Vorige Seite: <a href="README.md">Startseite</a> | Nächste Seite: <a href="02_projekt-anlegen.md">2. Projekt anlegen</a></p>
