@@ -1,4 +1,4 @@
-[kitodo-tutorials](https://github.com/felixlohmeier/kitodo-tutorials) » [kitodo2](https://github.com/felixlohmeier/kitodo-tutorials/kitodo2) » 01_arbeitsumgebung.md
+[kitodo-tutorials](../README.md) » [kitodo2](README.md) » 01_arbeitsumgebung.md
 
 # Arbeitsumgebung für Kitodo 2.x
 
@@ -15,7 +15,6 @@ Im Workshop nutzen wir den öffentlich zugänglichen Demo-Server von Zeutschel.
 
 
 * Kitodo.presentation: Für die TYPO3-Erweiterung Kitodo.Presentation existiert keine ausführliche Installationsanleitung. Erste Hinweise sind der [Dokumentation](https://github.com/kitodo/kitodo-presentation/blob/master/Documentation/Introduction/Index.rst) zu entnehmen.
-
 
 
 ------
