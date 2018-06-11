@@ -13,7 +13,7 @@ Im Workshop nutzen wir den öffentlich zugänglichen Demo-Server der Zeutschel G
 
 - Kitodo.Production: <http://kitodo.zeutschel.de/kitodo-production/>
   - Login-Informationen sind auf der Startseite vermerkt.
-  - enthält lizenzpflichtige Erweiterungen im Rahmen des [ZED Server](https://www.zeutschel.de/en/produkte/integrierte-loesungen/index.html) u.a. für die Übergabe in Kitodo.Presentation (zedExporter) und zur Administration (zedControl)
+  - enthält lizenzpflichtige Erweiterungen im Rahmen des [ZED Server](https://www.zeutschel.de/en/produkte/integrierte-loesungen/index.html) u.a. für die Übergabe in Kitodo.Presentation (zedExporter) und zu dessen Administration (zedControl)
 - Kitodo.Presentation: <http://kitodo.zeutschel.de/dlf/>
   - enthält individuelle Stylesheets für TYPO3 und eine Tagcloud-Funktion auf der Startseite
 

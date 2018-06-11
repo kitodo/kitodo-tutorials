@@ -42,8 +42,6 @@ Im Abschnitt `Abfolge der Aufgaben` können wir nun unseren Workflow, d.h. die b
     - Titel: `Erschließung`
     - Reihenfolge: `2`
     - Metadaten: (ja)
-    - Bei Annahme Modul starten: (ja)
-    - Modul: `zedOSGo action:AddStructData`
     - Status: `Gesperrt`
     - Benutzergruppen: `Administration` und `Metadata`
   * Export
@@ -58,7 +56,6 @@ Im Abschnitt `Abfolge der Aufgaben` können wir nun unseren Workflow, d.h. die b
 ## Hinweise
 
 * Wenn eine Gruppe von Personen Vorgänge anlegen soll, die nicht gleichzeitig Projektmanagement-Rechte (z.B. für Statistiken) besitzen darf, dann kann auch dafür eine eigene Aufgabe definiert werden.
-* Die obige Konfiguration bei Erschließung / Modul nutzt eine Funktion des ZED Server, um Strukturdaten automatisch zu ergänzen. Diese ist im Standardumfang von Kitodo.Production 2.1 nicht enthalten.
 * Je nach Qualitätsanforderungen sind weitere dezidierte Aufgaben wie Qualitätskontrolle oder Nachbearbeitung vorzusehen.
 * Mit der Funktion `Automatische Aufgabe` lassen sich externe Scripte auf Kommandozeilenebene starten, beispielsweise eine OCR-Anbindung. Über Variablen lassen sich Informationen aus Kitodo.Production übermitteln, z.B. der Pfad zu den Bilddateien oder der Schrifttyp (Fraktur/Antiqua).
 

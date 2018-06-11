@@ -62,7 +62,7 @@ Wir erstellen zunächst ein neues Projekt für unseren Workshop. Für diesen Sch
 
 ## Literatur
 
-* Anwenderdokumentation: [Abschnitt Projekt auf Seite Projektorganisation](https://github.com/kitodo/kitodo-production/wiki/Projektorganisation#projekt) und [Seite Projekt](https://github.com/kitodo/kitodo-production/wiki/Projekt)
+* Anwenderdokumentation: [Abschnitt Projekt auf Seite Projektorganisation](https://github.com/kitodo/kitodo-production/wiki/Projektorganisation#projekt) und [Seite Projekt](https://github.com/kitodo/kitodo-production/wiki/Projekt) und [Bearbeitung Projekte](https://github.com/kitodo/kitodo-production/wiki/Bearbeitung-Projekte)
 * [Leitlinien der SBB für das Anlegen von Projekten](https://github.com/kitodo/kitodo-production/wiki/Staatsbibliothek-zu-Berlin---Preu%C3%9Fischer-Kulturbesitz#projekte)
 
 
