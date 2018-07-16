@@ -6,6 +6,8 @@ Für diesen Schritt werden einfache Rechte benötigt. Sie können für die Konfi
 
 ## Aufgabe: Strukturdaten erfassen
 
+![Video Strukturdaten erfassen](/home/felix/kitodo/kitodo2/gif/08_strukturdaten.gif)
+
 Lesen Sie die [Anleitung in der Anwenderdokumentation](https://github.com/kitodo/kitodo-production/wiki/Strukturdaten-bearbeiten) und erfassen Sie dann die Strukturdaten.
 
 ## Literatur

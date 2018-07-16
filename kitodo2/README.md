@@ -22,7 +22,7 @@ Dieses Tutorial entstand anlässlich des [Workshops "Kitodo for newbies"](https:
 
 ## Feedback erwünscht!
 
-Verbesserungsvorschläge und Korrekturen über GitHub [Issues](https://github.com/felixlohmeier/kitodo-tutorials/issues) oder [Pull Requests](https://github.com/felixlohmeier/kitodo-tutorials/pulls) und natürlich gerne auch [persönlich](https://felixlohmeier.de/).
+Verbesserungsvorschläge und Korrekturen über GitHub [Issues](https://github.com/kitodo/kitodo-tutorials/issues) oder [Pull Requests](https://github.com/kitodo/kitodo-tutorials/pulls) und natürlich gerne auch [persönlich](https://felixlohmeier.de/).
 
 ## Lizenz
 

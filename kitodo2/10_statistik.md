@@ -8,6 +8,8 @@ Für diesen Schritt werden Verwaltungsrechte benötigt. Sie können den in Schri
 
 ## Aufgabe: Statistische Auswertungen über alle Vorgänge
 
+![Video Statistik allgemein](/home/felix/kitodo/kitodo2/gif/10_statistik-allgemein.gif)
+
 - Menüpunkt Workflow / `Vorgänge` aufrufen und in dem Block "Mögliche Aktionen" die verschiedenen Statistikfunktionen ausprobieren
   - Exceldatei erzeugen
   - PDF erzeugen
@@ -16,6 +18,8 @@ Für diesen Schritt werden Verwaltungsrechte benötigt. Sie können den in Schri
 
 
 ## Aufgabe: Trefferset über Vorgang suchen einschränken
+
+![Video Statistik Treffersets](/home/felix/kitodo/kitodo2/gif/10_statistik-treffersets.gif)
 
 * Menüpunkt Workflow / `Vorgang suchen` aufrufen
   * Trefferset wie gewünscht einschränken, z.B. nach Projekt

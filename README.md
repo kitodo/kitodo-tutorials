@@ -5,7 +5,7 @@ Dieses Repository beinhaltet Schritt-für-Schritt-Anleitungen für exemplarische
 
 ## Tutorials
 
-Die Workflowkomponente von Kitodo (Kitodo.production) wird derzeit in einem [DFG-Projekt](https://www.kitodo.org/software/entwicklung/dfg-projekt/) umfangreich weiterentwickelt, weshalb sich die Tutorials für die Versionen 2 (stabil) und 3 (in Entwicklung) wesentlich unterscheiden:
+Die Workflowkomponente von Kitodo (Kitodo.Production) wird derzeit in einem [DFG-Projekt](https://www.kitodo.org/software/entwicklung/dfg-projekt/) umfangreich weiterentwickelt, weshalb sich die Tutorials für die Versionen 2 (stabil) und 3 (in Entwicklung) wesentlich unterscheiden:
 
 * **[Tutorial für Kitodo 2.x](kitodo2/README.md)**
   * entstand anlässlich des [Workshops "Kitodo for newbies"](https://www.kitodo.org/news/2018/03/07/workshop-kitodo-for-newbies/) am 11./12.6.2018 an der TU Berlin
@@ -50,14 +50,18 @@ Kitodo.Production ist als Webapplikation in Java programmiert und kann plattform
   * Medientypologische Flexibilisierung (METS/TEI für Handschriften, EAD für Archivalien und LIDO für grafische Medien und mediale Objekte)
   * Neues Bedienkonzept (Redesign auf Basis von Nutzerstudien insbesondere für Arbeitsschritte im Metadaten- und Strukturdateneditor)
 * Individuelle Erweiterungen durch Dienstleister möglich (vgl. Dokumentation der erledigten Projekte von [effective WEBWORK](https://github.com/kitodo/kitodo-production/wiki/effective-webwork-Dokumentation) und [Zeutschel](https://github.com/kitodo/kitodo-production/wiki/Zeutschel-Dokumentation))
-* Medienserver mit Rechtemanagement (in Entwicklung an der TU Berlin)
+* [Medienserver mit Rechtemanagement](https://github.com/tuub/kitodo-mediaserver) (in Entwicklung an der TU Berlin)
 * [Unterstützung der IIIF Presentation API in Kitodo.Presentation](https://wiki.dnb.de/download/attachments/132748423/2018-04-11_KIMWS18_Meyer-IIIF%2BDFG-Viewer.pptx?version=1&modificationDate=1523606567000&api=v2) (in Entwicklung an der UB Leipzig)
 * Modul [Kitodo.Publication](https://www.kitodo.org/software/kitodopublication/) für Dokumentenserver
 * Exportmechanismen zur Überführung von Daten in die [Langzeitarchivierung](https://www.kitodo.org/software/langzeitarchivierung/)
 
+## Fragen zum Tutorial
+
+Falls bei der Bearbeitung der Tutorials Fragen auftreten, richten Sie diese gerne an die [Community-Mailingliste](https://maillist.slub-dresden.de/cgi-bin/mailman/listinfo/kitodo-community).
+
 ## Feedback erwünscht!
 
-Verbesserungsvorschläge und Korrekturen über GitHub [Issues](https://github.com/felixlohmeier/kitodo-tutorials/issues) oder [Pull Requests](https://github.com/felixlohmeier/kitodo-tutorials/pulls) und natürlich gerne auch [persönlich](https://felixlohmeier.de/).
+Verbesserungsvorschläge und Korrekturen über GitHub [Issues](https://github.com/kitodo/kitodo-tutorials/issues) oder [Pull Requests](https://github.com/kitodo/kitodo-tutorials/pulls) und natürlich gerne auch [persönlich](https://felixlohmeier.de/).
 
 ## Lizenz
 

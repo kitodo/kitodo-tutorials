@@ -6,12 +6,16 @@ Für diesen Schritt werden einfache Rechte benötigt. Sie können für die Konfi
 
 ## Aufgabe: Vorgang sperren
 
+![Video Vorgang sperren](/home/felix/kitodo/kitodo2/gif/06_vorgang-sperren.gif)
+
 - Menüpunkt Workflow / `Meine Aufgaben` aufrufen
   - In der Liste den passenden Vorgang auswählen und unter Aktionen den Button `Aufgabe übernehmen` drücken
   - Es erscheint die Meldung "Verzeichnis in Benutzerhome verlinkt ..."
 
 
-## Aufgabe: Auf dem Scan-PC via Webdav mit dem Nutzerverzeichnis verbinden
+## Aufgabe: Materialien scannen und die Bildateien auf dem Webdav-Verzeichnis speichern verbinden
+
+![Video Upload via Webdav](/home/felix/kitodo/kitodo2/gif/06_upload-via-webdav.gif)
 
 Durch den vorigen Schritt ist das Verzeichnis des Vorgangs über die Webdav-Schnittstelle verfügbar gemacht worden. Die Adresse lautet für den Demo-Server <http://kitodo.zeutschel.de/webdav/> - gefolgt vom Benutzernamen (Beispiel: http://kitodo.zeutschel.de/webdav/testscanning für den Benutzer `testscanning`)
 
@@ -21,11 +25,9 @@ Durch den vorigen Schritt ist das Verzeichnis des Vorgangs über die Webdav-Schn
 * Anleitung für Max OS X: <https://support.apple.com/kb/PH25331>
 * Anleitung für Ubuntu: <https://wiki.ubuntuusers.de/WebDAV/>
 
-## Aufgabe: Materialien scannen
-
-Materialien mit einer Scansoftware scannen und die Bilddateien auf dem Webdav-Verzeichnis speichern.
-
 ## Aufgabe: Aufgabe abschließen
+
+![Video Aufgabe abschließen](/home/felix/kitodo/kitodo2/gif/06_aufgabe-abschliessen.gif)
 
 - Menüpunkt Workflow / `Meine Aufgaben` aufrufen
   - In der Liste den passenden Vorgang auswählen und unter Aktionen den Button drücken

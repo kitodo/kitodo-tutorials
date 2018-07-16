@@ -25,6 +25,8 @@ Auf dem Demo-Server sind die Benutzergruppen bereits eingerichtet. Wenn Sie mit 
 
 ## Aufgabe: Benutzer anlegen
 
+![Video Benutzer anlegen](/home/felix/kitodo/kitodo2/gif/03_benutzer-anlegen.gif)
+
 * Menüpunkt Administration / `Benutzer` aufrufen, dort Link `Neuen Benutzer anlegen` klicken und folgende Angaben vornehmen:
   * Technische/r Administrator/in
     * Nachname: `workshop20180611`

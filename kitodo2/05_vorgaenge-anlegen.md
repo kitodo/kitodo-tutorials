@@ -16,13 +16,18 @@ Für diesen Schritt werden Verwaltungsrechte benötigt. Sie können den in Schri
 
 ## Aufgabe: Vorgang anlegen
 
+![Video Workflow definieren](/home/felix/kitodo/kitodo2/gif/05_vorgang-anlegen.gif)
+
 - Menüpunkt Workflow / `Neuen Vorgang anlegen` aufrufen
+  - Wenn es nur eine Produktionsvorlage im Projekt gibt, dann landen Sie direkt im Bildschirm "einen neuen Vorgang anlegen". Wenn es mehrere Produktionsvorlagen in einem Projekt gibt, dann erscheint eine Liste dieser Produktionsvorlagen. Klicken Sie in diesem Fall in der passenden Zeile in der Spalte Aktionen auf den Button "Einen Vorgang auf Basis dieser Produktionsvorlage anlegen".
   - Erstellen Sie einen neuen Vorgang für das auf Ihrem Handzettel notierte Material (also nur für eins der fünf oben vermerkten Materialien).
   - Im `Vorgangstitel` bitte die Nummer aus dem Handzettel vornewegstellen, etwa so `02_abc-blumen-sprache_BV042554518`, damit wir die Vorgänge im Workshop auseinanderhalten können.
   - Lesen Sie zur Einführung die Anwenderdokumentation [Neuen Vorgang anlegen](https://github.com/kitodo/kitodo-production/wiki/Neuen-Vorgang-anlegen) im Wiki und füllen Sie dann die Felder anhand der oben verlinkten Katalogeinträge aus.
 
 
 ## Aufgabe: Laufzettel drucken
+
+![Video Workflow definieren](/home/felix/kitodo/kitodo2/gif/05_laufzettel-drucken.gif)
 
 Direkt im Anschluss an das Anlegen des Vorgangs erhalten Sie die Möglichkeit einen Laufzettel auszudrucken. Sie erreichen die Funktion auch über die Vorgangsliste.
 
