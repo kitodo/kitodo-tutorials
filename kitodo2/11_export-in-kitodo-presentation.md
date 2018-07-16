@@ -8,7 +8,7 @@ Für diesen Schritt werden Verwaltungsrechte benötigt. Sie können den in Schri
 
 ## Aufgabe: Export
 
-![Video Export](/home/felix/kitodo/kitodo2/gif/11_export.gif)
+![Video Export](gif/11_export.gif)
 
 Menüpunkt Workflow / `Meine Aufgaben` aufrufen
 - in der Liste der Vorgänge über den Button in der Spalte Aktionen einen Vorgang übernehmen, bei dem die Aufgabe `Export` gelistet ist.
@@ -17,7 +17,7 @@ Menüpunkt Workflow / `Meine Aufgaben` aufrufen
 
 ## Aufgabe: Prüfung im Taskmanager
 
-![Video Export Taskmanager](/home/felix/kitodo/kitodo2/gif/11_export-taskmanager.gif)
+![Video Export Taskmanager](gif/11_export-taskmanager.gif)
 
 Mit Adminrechten einloggen und Menüpunkt Administration / `Taskmanager` aufrufen
 
@@ -26,7 +26,7 @@ Mit Adminrechten einloggen und Menüpunkt Administration / `Taskmanager` aufrufe
 
 ## Aufgabe: Prüfung im Präsentationssystem
 
-![Video Export Erfolgskontrolle](/home/felix/kitodo/kitodo2/gif/11_export-erfolgskontrolle.gif)
+![Video Export Erfolgskontrolle](gif/11_export-erfolgskontrolle.gif)
 
 * Prüfung im Präsentationssystem: <http://kitodo.zeutschel.de/dlf/>
 * Bei Erfolg `Die Bearbeitung dieser Aufgabe abschließen` klicken

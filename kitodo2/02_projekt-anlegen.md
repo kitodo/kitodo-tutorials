@@ -12,7 +12,7 @@ Wir erstellen zunächst ein neues Projekt für unseren Workshop. Für diesen Sch
 
 ## Aufgabe: Projekt anlegen
 
-![Video Projekt anlegen](/home/felix/kitodo/kitodo2/gif/02_projekt-anlegen.gif)
+![Video Projekt anlegen](gif/02_projekt-anlegen.gif)
 
 * Menüpunkt Administration / `Projekte` aufrufen, dort Link `Neues Projekt anlegen` klicken und folgende Angaben vornehmen:
   * Reiter Details

@@ -6,13 +6,13 @@ Für diesen Schritt werden einfache Rechte benötigt. Sie können für die Konfi
 
 ## Aufgabe: Metadaten eingeben
 
-![Video Metadaten eingeben](/home/felix/kitodo/kitodo2/gif/09_metadaten-eingeben.gif)
+![Video Metadaten eingeben](gif/09_metadaten-eingeben.gif)
 
 Lesen Sie die [Anleitung in der Anwenderdokumentation](https://github.com/kitodo/kitodo-production/wiki/Metadaten-bearbeiten) und erfassen Sie dann exemplarisch die Metadaten für die Strukturelemente.
 
 ## Aufgabe: Metadaten validieren
 
-![Video Metadaten validieren](/home/felix/kitodo/kitodo2/gif/09_metadaten-validieren.gif)
+![Video Metadaten validieren](gif/09_metadaten-validieren.gif)
 
 Validieren Sie abschließend die Daten im Metadaten-Editor und korrigieren Sie ggf. nicht ausgefüllte Pflichtfelder oder fehlerhafte Eingaben. Die Regeln für die Validierung werden im Regelsatz (XML-Datei) bestimmt.
 

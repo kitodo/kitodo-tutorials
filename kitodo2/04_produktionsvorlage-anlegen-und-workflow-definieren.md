@@ -13,7 +13,7 @@ Für diesen Schritt werden Administrationsrechte benötigt. Sie können für die
 
 ## Aufgabe: Produktionsvorlage anlegen
 
-![Video Produktionsvorlage anlegen](/home/felix/kitodo/kitodo2/gif/04_produktionsvorlage-anlegen.gif)
+![Video Produktionsvorlage anlegen](gif/04_produktionsvorlage-anlegen.gif)
 
 Im Workshop verwenden wir den Regelsatz [gdz.xml](config/gdz.xml). Wenn Sie nicht den Demo-Server, sondern eine lokale Installation verwenden, dann muss diese Datei zuvor in den Ordner `rulesets` kopiert werden und im Menü Administration / `Regelsätze` angelegt werden.
 
@@ -28,7 +28,7 @@ Die Produktionsvorlage kann wie folgt angelegt werden:
 
 ## Aufgabe: Workflow definieren
 
-![Video Workflow definieren](/home/felix/kitodo/kitodo2/gif/04_workflow-definieren.gif)
+![Video Workflow definieren](gif/04_workflow-definieren.gif)
 
 Nach dem Speichern erscheint die Detailansicht der gerade angelegten Produktionsvorlage. Diese ist in der Liste unter dem Menüpunkt Workflow / `Produktionsvorlagen` auch über den Button Aktionen / `Vorgang bearbeiten`  erreichbar.
 

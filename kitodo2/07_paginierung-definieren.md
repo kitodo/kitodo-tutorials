@@ -6,13 +6,13 @@ Für diesen Schritt werden einfache Rechte benötigt. Sie können für die Konfi
 
 ## Aufgabe: Metadateneditor aufrufen
 
-![Video Metadateneditor aufrufen](/home/felix/kitodo/kitodo2/gif/07_metadateneditor-aufrufen.gif)
+![Video Metadateneditor aufrufen](gif/07_metadateneditor-aufrufen.gif)
 
 Lesen Sie die [Einführung in den Metadateneditor in der Anwenderdokumentation](https://github.com/kitodo/kitodo-production/wiki/Metadateneditor---Allgemeines), rufen Sie den Metadateneditor für den in Arbeit befindlichen Vorgang auf und machen Sie sich mit der Oberfläche vertraut.
 
 ## Aufgabe: Paginierung
 
-![Video Paginierung](/home/felix/kitodo/kitodo2/gif/07_paginierung.gif)
+![Video Paginierung](gif/07_paginierung.gif)
 
 Lesen Sie die [Anleitung in der Anwenderdokumentation](https://github.com/kitodo/kitodo-production/wiki/Paginieren) und führen Sie dann die Paginierung durch.
 

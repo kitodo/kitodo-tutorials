@@ -16,7 +16,7 @@ Für diesen Schritt werden Verwaltungsrechte benötigt. Sie können den in Schri
 
 ## Aufgabe: Vorgang anlegen
 
-![Video Workflow definieren](/home/felix/kitodo/kitodo2/gif/05_vorgang-anlegen.gif)
+![Video Workflow definieren](gif/05_vorgang-anlegen.gif)
 
 - Menüpunkt Workflow / `Neuen Vorgang anlegen` aufrufen
   - Wenn es nur eine Produktionsvorlage im Projekt gibt, dann landen Sie direkt im Bildschirm "einen neuen Vorgang anlegen". Wenn es mehrere Produktionsvorlagen in einem Projekt gibt, dann erscheint eine Liste dieser Produktionsvorlagen. Klicken Sie in diesem Fall in der passenden Zeile in der Spalte Aktionen auf den Button "Einen Vorgang auf Basis dieser Produktionsvorlage anlegen".
@@ -27,7 +27,7 @@ Für diesen Schritt werden Verwaltungsrechte benötigt. Sie können den in Schri
 
 ## Aufgabe: Laufzettel drucken
 
-![Video Workflow definieren](/home/felix/kitodo/kitodo2/gif/05_laufzettel-drucken.gif)
+![Video Workflow definieren](gif/05_laufzettel-drucken.gif)
 
 Direkt im Anschluss an das Anlegen des Vorgangs erhalten Sie die Möglichkeit einen Laufzettel auszudrucken. Sie erreichen die Funktion auch über die Vorgangsliste.
 
