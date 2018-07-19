@@ -70,7 +70,7 @@ Auf dem Demo-Server sind die Benutzergruppen bereits eingerichtet. Wenn Sie mit 
     - Projekte: `Workshop20180611`
 * Anschließend muss noch für jede/n Benutzer/in die Konfiguration manuell an die LDAP-Nutzerdatenbank übermittelt werden.
   * Im Menüpunkt Administration / `Benutzer` den Button `Benutzer bearbeiten` klicken
-  * Neben dem Textfeld `LDAP-Gruppe` den Button `LDAP-Konfiguration schreiben` klicken
+  * Neben dem Textfeld `LDAP-Gruppe` den Button `LDAP-Konfiguration schreiben` (Schlüsselsymbol) klicken.
 
 ## Hinweise
 
