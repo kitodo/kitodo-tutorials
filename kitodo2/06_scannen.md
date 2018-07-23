@@ -13,7 +13,7 @@ Für diesen Schritt werden einfache Rechte benötigt. Sie können für die Konfi
   - Es erscheint die Meldung "Verzeichnis in Benutzerhome verlinkt ..."
 
 
-## Aufgabe: Materialien scannen und die Bildateien auf dem Webdav-Verzeichnis speichern verbinden
+## Aufgabe: Materialien scannen und die Bildateien auf dem Webdav-Verzeichnis speichern
 
 ![Video Upload via Webdav](gif/06_upload-via-webdav.gif)
 

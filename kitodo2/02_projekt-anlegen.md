@@ -14,6 +14,10 @@ Wir erstellen zunächst ein neues Projekt für unseren Workshop. Für diesen Sch
 
 ![Video Projekt anlegen](gif/02_projekt-anlegen.gif)
 
+Die folgenden Einstellungen dienen vor allem der Generierung der METS-Dateien für die spätere Präsentation der Digitalisate. Wenn Sie mögen, können Sie die Bedeutung der einzelnen Felder in der Dokumentation [Bearbeitung Projekte](https://github.com/kitodo/kitodo-production/wiki/Bearbeitung-Projekte) nachschlagen.
+
+Zum Anlegen eines Projektes auf dem Demo-Server gehen Sie wie folgt vor:
+
 * Menüpunkt Administration / `Projekte` aufrufen, dort Link `Neues Projekt anlegen` klicken und folgende Angaben vornehmen:
   * Reiter Details
     * Titel: `Workshop20180611` (um Kollisionen auf dem Demo-Server zu vermeiden, verwenden Sie bitte das aktuelle Datum)
