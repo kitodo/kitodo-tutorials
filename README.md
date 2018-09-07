@@ -9,8 +9,8 @@ Die Workflowkomponente von Kitodo (Kitodo.Production) wird derzeit in einem [DFG
 
 * **[Tutorial für Kitodo 2.x](kitodo2/README.md)**
   * entstand anlässlich des [Workshops "Kitodo for newbies"](https://www.kitodo.org/news/2018/03/07/workshop-kitodo-for-newbies/) am 11./12.6.2018 an der TU Berlin
-* **Tutorial für Kitodo 3.x**
-  * geplant für einen weiteren Workshop am 10./11.9.2018
+* **[Tutorial für Kitodo 3.x](kitodo3/README.md)**
+  * entstand anlässlich eines [weiteren Workshops](http://www.kitodo.org/news/2018/07/23/online-tutorial/) am 10./11.9.2018 an der TU Berlin
 
 Im Folgenden finden Sie zum Einstieg allgemeine Informationen zu Kitodo, die für beide Tutorials gleichermaßen gelten.
 
@@ -45,7 +45,7 @@ Kitodo.Production ist als Webapplikation in Java programmiert und kann plattform
 
 ### Erweiterungen
 
-* [DFG-Projekt zur Weiterentwicklung von Kitodo.Production](https://www.kitodo.org/software/entwicklung/dfg-projekt/)
+* [DFG-Projekt zur Weiterentwicklung von Kitodo.Production](https://www.kitodo.org/software/entwicklung/dfg-projekt/) (Kitodo 3.x)
   * Modularisierung der Software (u.a. Überarbeitung Systemkern, neue Workflowkomponente, Qualifzierung der Schnittstellen, Elasticsearch für die Suche, neues Rechte- und Rollensystem, Datenimport- und export für Nicht-Pica-Kataloge, Unterstützung mehrfach hierarchischer Beziehungen)
   * Medientypologische Flexibilisierung (METS/TEI für Handschriften, EAD für Archivalien und LIDO für grafische Medien und mediale Objekte)
   * Neues Bedienkonzept (Redesign auf Basis von Nutzerstudien insbesondere für Arbeitsschritte im Metadaten- und Strukturdateneditor)
