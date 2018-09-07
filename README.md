@@ -10,7 +10,7 @@ Die Workflowkomponente von Kitodo (Kitodo.Production) wird derzeit in einem [DFG
 * **[Tutorial für Kitodo 2.x](kitodo2/README.md)**
   * entstand anlässlich des [Workshops "Kitodo for newbies"](https://www.kitodo.org/news/2018/03/07/workshop-kitodo-for-newbies/) am 11./12.6.2018 an der TU Berlin
 * **[Tutorial für Kitodo 3.x](kitodo3/README.md)**
-  * entstand anlässlich eines [weiteren Workshops](http://www.kitodo.org/news/2018/07/23/online-tutorial/) am 10./11.9.2018 an der TU Berlin
+  * entstand anlässlich eines [weiteren Workshops](https://www.kitodo.org/news/2018/07/23/online-tutorial/) am 10./11.9.2018 an der TU Berlin
 
 Im Folgenden finden Sie zum Einstieg allgemeine Informationen zu Kitodo, die für beide Tutorials gleichermaßen gelten.
 
