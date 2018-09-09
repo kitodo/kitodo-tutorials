@@ -97,10 +97,13 @@ Sobald Sie mit dem Einmalpasswort eingeloggt sind, müssen Sie ein neues Passwor
 apt update && apt upgrade
 ```
 
-Legen Sie anschließend einen neuen Account mit Administrationsrechten an. Als Passwort verwenden wir im Workshop `Workshop20180910`
+Legen Sie anschließend einen neuen Account mit Administrationsrechten an. Im Workshop verwenden wir das Passwort `Workshop20180910`. Fehlermeldungen wie `sent invalidate(passwd) request, exiting` können Sie ignorieren (Hintergründe in der Doku von DigitalOcean [Initial Server Setup with Debian 9](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-9)).
 
 ```
 adduser kitodo
+```
+
+```
 usermod -a -G sudo kitodo
 ```
 
@@ -118,8 +121,8 @@ Zum Schutz vor unberechtigten Zugriffen installieren wir abschließend eine Fire
 ```
 sudo apt install ufw
 sudo ufw allow OpenSSH
-sudo ufw enable
 sudo ufw allow 8080
+sudo ufw enable
 ```
 
 ## Installation von Kitodo.Production
@@ -273,7 +276,6 @@ Menü System aufrufen. Beispiel Direktlink: <http://46.101.132.29:8080/kitodo/pa
 - ElasticSearch Index löschen
 - ElasticSearch Mapping erzeugen
 - Gesamter Index / Indexierung starten
-
 
 
 ------
