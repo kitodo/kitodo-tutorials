@@ -287,6 +287,31 @@ Menü System aufrufen. Beispiel Direktlink: <http://46.101.132.29:8080/kitodo/pa
 - Gesamter Index / Indexierung starten
 
 
+## Fehlerbehebung
+
+### Nach Neustart Kitodo nicht erreichbar
+
+Bei einem Neustart des Tomcat Webservers tritt sporadisch ein Fehler beim Deployment der Kitodo-Application (kitodo.war) auf. Fehlermeldungen des Tomcats können wie folgt eingesehen werden:
+
+```
+sudo cat /var/lib/tomcat8/logs/catalina.out
+```
+
+Ein Löschen der Arbeitsverzeichnisse und des Cache hilft in diesem Fall. Geben Sie dazu folgende Befehle ein (mit dem letzten verfolgen Sie das Log):
+
+```
+sudo service tomcat8 stop
+sudo rm -rf /var/cache/tomcat8/*
+sudo rm -rf /var/lib/tomcat8/work/*
+sudo rm -rf /var/lib/tomcat8/webapps/kitodo
+sudo service tomcat8 start
+sudo tail -f /var/lib/tomcat8/logs/catalina.out
+```
+
+
+
+
+
 ------
 
 <p align="center">Vorige Seite: <a href="README.md">Startseite</a> | Nächste Seite: <a href="02_projekt-anlegen.md">2. Projekt anlegen</a></p>
