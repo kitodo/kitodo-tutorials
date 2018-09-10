@@ -120,6 +120,9 @@ Zum Schutz vor unberechtigten Zugriffen installieren wir abschließend eine Fire
 
 ```
 sudo apt install ufw
+```
+
+```
 sudo ufw allow OpenSSH
 sudo ufw allow 8080
 sudo ufw enable
@@ -147,6 +150,12 @@ sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5072E1F5 && echo "deb http:
 sudo debconf-set-selections <<< "mysql-community-server mysql-community-server/root-pass password "
 sudo debconf-set-selections <<< "mysql-community-server mysql-community-server/re-root-pass password "
 sudo apt update && sudo apt install -y openjdk-8-jdk maven mysql-community-server zip
+```
+
+### Java Sicherheitseinstellungen für Nutzung in Cloud-Umgebungen anpassen
+
+```
+sudo sed -i 's/securerandom.source=file:\/dev\/random/securerandom.source=file:\/dev\/urandom/' /etc/java-8-openjdk/security/java.security
 ```
 
 ### Entwicklerversion basierend auf dem GitHub branch [felixlohmeier/kitodo-production/tree/workshop20180910](https://github.com/felixlohmeier/kitodo-production/tree/workshop20180910) bauen
