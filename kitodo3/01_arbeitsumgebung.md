@@ -289,26 +289,30 @@ Menü System aufrufen. Beispiel Direktlink: <http://46.101.132.29:8080/kitodo/pa
 
 ## Fehlerbehebung
 
-### Nach Neustart Kitodo nicht erreichbar
+### Nach Neustart Kitodo Weboberfläche nicht erreichbar
 
-Bei einem Neustart des Tomcat Webservers tritt sporadisch ein Fehler beim Deployment der Kitodo-Application (kitodo.war) auf. Fehlermeldungen des Tomcats können wie folgt eingesehen werden:
+Sporadisch tritt nach einem Neustart ein Fehler beim Deployment der Kitodo-Applikation (kitodo.war) auf, so dass die Weboberfläche von Kitodo nicht sofort erreichbar ist. Dann erscheint in der Logdatei `/var/lib/tomcat8/logs/catalina.out` folgende Fehlermeldung:
 
-```
-sudo cat /var/lib/tomcat8/logs/catalina.out
-```
+> Caused by: java.lang.IllegalStateException: Unable to complete the scan for annotations for web application [/kitodo] due to a StackOverflowError.
 
-Ein Löschen der Arbeitsverzeichnisse und des Cache hilft in diesem Fall. Geben Sie dazu folgende Befehle ein (mit dem letzten verfolgen Sie das Log):
+Ein Löschen der Arbeitsverzeichnisse und des Cache hilft in diesem Fall. Geben Sie dazu folgende Befehle ein:
 
 ```
 sudo service tomcat8 stop
+```
+
+```
 sudo rm -rf /var/cache/tomcat8/*
 sudo rm -rf /var/lib/tomcat8/work/*
 sudo rm -rf /var/lib/tomcat8/webapps/kitodo
 sudo service tomcat8 start
-sudo tail -f /var/lib/tomcat8/logs/catalina.out
 ```
 
+Den Status können Sie in der Logdatei verfolgen:
 
+```
+sudo tail -f /var/lib/tomcat8/logs/catalina.out
+```
 
 
 

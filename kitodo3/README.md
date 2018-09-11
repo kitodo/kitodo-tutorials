@@ -12,13 +12,16 @@ Dieses Tutorial entstand anlässlich des zweiten [Workshops "Kitodo for newbies"
 2. [Projekt anlegen](02_projekt-anlegen.md)
 3. [Benutzerkonfiguration](03_benutzerkonfiguration.md)
 4. [Produktionsvorlage anlegen und Workflow definieren](04_produktionsvorlage-anlegen-und-workflow-definieren.md)
-5. [Vorgänge anlegen](05_vorgaenge-anlegen.md)
-6. [Scannen](06_scannen.md)
-7. [Paginierung definieren](07_paginierung-definieren.md)
-8. [Strukturdaten bearbeiten](08_strukturdaten-bearbeiten.md)
-9. [Metadaten bearbeiten](09_metadaten-bearbeiten.md)
-10. [Statistik](10_statistik.md)
-11. [Export in Kitodo.Presentation](11_export-in-kitodo-presentation.md)
+5. Vorgänge anlegen
+6. Scannen
+7. Paginierung definieren
+8. Strukturdaten bearbeiten
+9. Metadaten bearbeiten
+10. Statistik
+11. Export in Kitodo.Presentation
+12. [Installation Kitodo.Presentation](12_installation-kitodo-presentation.md)
+13. [Daten indexieren](13_daten-indexieren.md)
+14. [Anzeige konfigurieren](14_anzeige-konfigurieren.md)
 
 ## Feedback erwünscht!
 
