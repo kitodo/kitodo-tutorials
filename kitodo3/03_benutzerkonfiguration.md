@@ -25,7 +25,13 @@ In den Beispieldaten sind bereits einige Benutzergruppen vorhanden. Im Bearbeitu
 
 Menü `Benutzer` / Tab `Benutzer`
 
-Benutzer sind ebenfalls bereits eingerichtet. Editieren Sie diese und ergänzen Sie im Tab `Projektliste` das im vorigen Schritt angelegte Projekt.
+Benutzer sind ebenfalls bereits eingerichtet. Editieren Sie alle und ergänzen Sie im Tab `Projektliste` das im vorigen Schritt angelegte Projekt.
+
+**Achtung:** In der Entwicklerversion ist noch ein Fehler enthalten, der es erforderlich macht nach der Bearbeitung von Benutzern (z.B. wie hier Projektberechtigungen zuweisen) deren Passwort neu zu setzen. Ansonsten ist kein Login mehr möglich. Bitte gehen Sie daher wie folgt vor, damit Sie sich nicht aussperren:
+
+* Bei Benutzer `Admin, test` unter `Aktionen` den Stift-Button (`Benutzer bearbeiten`) klicken
+* Unten den Button `Passwort ändern` drücken
+* Als neues Passwort erneut `test` eingeben
 
 ## Aufgabe: Mandanten konfigurieren
 
@@ -42,7 +48,6 @@ Nach Abschluss der Aufgaben sollte die Seite [Benutzer](http://localhost:8080/ki
 ## Hinweise
 
 * In der Standardkonfiguration nutzt Kitodo.Production eine eigene Nutzerdatenbank anstelle von LDAP. Die Einstellung wird in der Datei [kitodo_config.properties ab Zeile 500](https://github.com/kitodo/kitodo-production/blob/master/Kitodo/src/main/resources/kitodo_config.properties#L500)  vorgenommen. Die Datei liegt hier an der Stelle `/var/lib/tomcat8/webapps/kitodo/WEB-INF/classes/kitodo_config.properties`.
-* Wenn Sie weitere Mandanten anlegen und Benutzer diesen neuen Mandanten zuordnen, kann es in der Entwicklerversion erforderlich sein, dass Sie das Passwort des Benutzers neu setzen müssen, damit der Login weiterhin funktioniert. Lassen Sie den Account `Admin, test` (`testadmin`) unverändert, damit Sie sich nicht versehentlich aussperren.
 
 
 
