@@ -19,27 +19,26 @@ Menü `Aufgaben`
 
 * In der Liste der Vorgänge (hier nur ein Vorgang sichtbar) unter `Aktionen` den Klingel-Button ("Die Bearbeitung dieser Aufgabe übernehmen") anklicken
 
-Damit ist diese Aufgabe für andere BenutzerInnen gesperrt, bis diese abgeschlossen oder wieder freigegeben wird. Das Verzeichnis mit den Bilddateien dieses Vorgangs wird für den Benutzer im Dateisystem unter  `/usr/local/kitodo/users/BENUTZERNAME` freigegeben.
+Damit ist diese Aufgabe für andere BenutzerInnen gesperrt, bis diese abgeschlossen oder wieder freigegeben wird. Gleichzeitig wird das Bildverzeichnis des Vorgangs für den Benutzer `testAdmin` im Dateisystem unter  `/usr/local/kitodo/users/testAdmin` mit einem Symlink bereitgestellt.
 
-**Achtung:** In der Entwicklerversion ist noch ein Fehler, so dass der Symlink ins Leere zeigt. Verbinden Sie sich via SSH mit dem Server und geben Sie folgende Befehle auf der Kommandozeile als Workaround ein:
+**Achtung:** In der Entwicklerversion ist noch ein Fehler, so dass der Symlink ins Leere zeigt. Verbinden Sie sich via SSH mit dem Server und geben Sie folgende Befehle auf der Kommandozeile als Workaround ein (falls Sie mehrere Vorgänge angelegt haben sollten, ändern Sie ggf. die Nummer):
 
 ```
-sudo mkdir /usr/local/kitodo/metadata/2/images
-sudo chown tomcat8:tomcat8 /usr/local/kitodo/metadata/2/images
+sudo mkdir /usr/local/kitodo/metadata/1/images
+sudo chown tomcat8:tomcat8 /usr/local/kitodo/metadata/1/images
 ```
 
-Wenn Sie den gleichen Vorgangstitel verwendet haben, dann können die Bilddateien nun über den Symlink  `/usr/local/kitodo/users/testAdmin/GoetDas_BV044535696__[2]` bzw. direkt in das Verzeichnis `/usr/local/kitodo/metadata/2/images` eingespielt werden. Die Symlinks im Dateisystem sind die Grundlage, um diese benutzerspezifisch mit Webdav oder Samba bereitzustellen.
+Sofern Sie dem Skript 1:1 gefolgt sind, lautet der Vorgangstitel für Vorgang Nr. 1  `GoetDas_BV044535696`. In diesem Fall können die Bilddateien nun über den Symlink `/usr/local/kitodo/users/testAdmin/GoetDas_BV044535696__[1]` bzw. direkt in das Verzeichnis `/usr/local/kitodo/metadata/1/images` eingespielt werden. Die Symlinks im Dateisystem sind die Grundlage, um diese benutzerspezifisch mit Webdav oder Samba bereitzustellen.
 
 ## Aufgabe: Bildateien auf den Server laden
 
-Ein Webdav-Server gehört nicht zum Funktionsumfang von Kitodo.Production, daher spielen wir in diesem Workshop die Bilddateien manuell auf den Server. Verbinden Sie sich mit dem Server via SSH und geben Sie folgende Befehle ein:
+Ein Webdav-Server gehört nicht zum Funktionsumfang von Kitodo.Production, daher spielen wir in diesem Workshop die Bilddateien manuell auf den Server. Verbinden Sie sich mit dem Server via SSH und geben Sie folgende Befehle ein, um die Beispiel-TIF-Dateien von GitHub in das Verzeichnis zu laden:
 
 ```
-sudo mkdir /usr/local/kitodo/metadata/2/images/tif
-for i in {01..77}; sudo wget https://raw.githubusercontent.com/kitodo/kitodo-tutorials/master/kitodo3/data/rudolf-goethe_das-strauch-und-schalenobst_$i.tif -P /usr/local/kitodo/metadata/2/images/tif; done
+sudo mkdir /usr/local/kitodo/metadata/1/images/GoetDas_BV044535696_media
+for i in {01..77}; do sudo wget https://raw.githubusercontent.com/kitodo/kitodo-tutorials/master/kitodo3/data/rudolf-goethe_das-strauch-und-schalenobst_$i.tif -P /usr/local/kitodo/metadata/1/images/GoetDas_BV044535696_media; done
+sudo chown -R tomcat8:tomcat8 /usr/local/kitodo/metadata/1/images/GoetDas_BV044535696_media
 ```
-
-Falls Sie mehrere Vorgänge angelegt haben, müssen Sie ggf. das Verzeichnis anpassen.
 
 ## Aufgabe: Aufgabe abschließen
 
