@@ -178,7 +178,8 @@ sudo mysql -e "create database kitodo;grant all privileges on kitodo.* to kitodo
 ### Beispieldaten laden und in Kitodo 3.x Datenbankformat transformieren
 
 ```
-wget -O - https://raw.githubusercontent.com/kitodo/kitodo-production/master/Kitodo/setup/schema.sql https://raw.githubusercontent.com/kitodo/kitodo-production/master/Kitodo/setup/default.sql | mysql -u kitodo -D kitodo --password=kitodo
+cat kitodo-production-master/Kitodo/setup/schema.sql | mysql -u kitodo -D kitodo --password=kitodo
+cat kitodo-production-master/Kitodo/setup/default.sql | mysql -u kitodo -D kitodo --password=kitodo
 (cd kitodo-production-master/Kitodo-DataManagement && mvn flyway:baseline -Pflyway && mvn flyway:migrate -Pflyway)
 mysqldump -u kitodo --password=kitodo kitodo > kitodo-3.sql
 ```
@@ -191,6 +192,7 @@ install -m 444 kitodo-production-master/Kitodo/src/main/resources/kitodo_*.xml z
 install -m 444 kitodo-production-master/Kitodo/src/main/resources/modules.xml zip/config/
 install -m 444 kitodo-production-master/Kitodo/src/main/resources/docket*.xsl zip/xslt/
 install -m 444 kitodo-production-master/Kitodo/rulesets/*.xml zip/rulesets/
+install -m 444 kitodo-production-master/Kitodo/diagrams/*.xml zip/diagrams/
 install -m 554 kitodo-production-master/Kitodo/scripts/*.sh zip/scripts/
 chmod -w zip/config zip/import zip/messages zip/plugins zip/plugins/command zip/plugins/import zip/plugins/opac zip/plugins/step zip/plugins/validation zip/rulesets zip/scripts zip/xslt
 (cd zip && zip -r ../kitodo-3-config.zip *)
