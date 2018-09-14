@@ -124,6 +124,7 @@ sudo apt install ufw
 
 ```
 sudo ufw allow OpenSSH
+sudo ufw allow 80
 sudo ufw allow 8080
 sudo ufw enable
 ```
