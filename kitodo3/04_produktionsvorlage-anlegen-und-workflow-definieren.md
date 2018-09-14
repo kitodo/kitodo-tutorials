@@ -1,19 +1,19 @@
-[kitodo-tutorials](../README.md) » [kitodo3](README.md) » 04_produktionsvorlage-anlegen-und-workflow-definieren.md
+kitodo-tutorials](../README.md) » [kitodo3](README.md) » 04_produktionsvorlage-anlegen-und-workflow-definieren.md
 
 # Workflow definieren und Produktionsvorlage anlegen
 
-In der Regel wird für jedes zu digitalisierende Objekt ein eigener Vorgang erstellt. Um nicht für jeden dieser Vorgänge die Arbeitsschritte neu festlegen zu müssen, können Produktionsvorlagen erstellt werden, die dann als Muster dienen.
+In der Regel wird für jedes zu digitalisierende Objekt ein eigener Vorgang erstellt. Um nicht für jeden dieser Vorgänge die Arbeitsschritte neu festlegen zu müssen, können Produktionsvorlagen erstellt werden, die dann als Muster dienen. Eine Produktionsvorlage beinhaltet einen Workflow (die bei jedem Vorgang in bestimmter Reihenfolge zu erledigenden Arbeitsschritte), einen Regelsatz und einen Laufzettel.
 
-Die grafische Erstellung von Workflows ist eine neue Funktionalität von Kitodo 3.x. Dazu wird der Standard BPMN verwendet und ein bestehender Workflow-Editor Camunda integriert.
+Die grafische Erstellung von Workflows ist eine neue Funktionalität von Kitodo 3.x. Dazu wird der Standard [BPMN](http://www.bpmn.org/) verwendet und ein bestehender [Workflow-Editor von Camunda](https://camunda.com/products/modeler/) integriert.
 
 http://localhost:8080/kitodo/pages/projects.jsf
 
 - Login: `testAdmin`
 - Passwort: `test`
 
-## Aufgabe: Workflow versuchsweise definieren
+## Aufgabe: Workflow-Editor kennenlernen
 
-Die Erstellung von Workflows ist in der aktuellen Entwicklerversion noch etwas unübersichtlich, so dass wir den vorhandenen Beispielworkflow verwenden. Machen Sie sich trotzdem versuchsweise mit dem Editor vertraut.
+**Achtung:** In der Entwicklerversion ist das Speichern von Workflows noch nicht möglich. Außerdem ist die Benutzeroberfläche noch unübersichtlich, das wird noch überarbeitet. Im weiteren Verlauf des Workshops werden wir daher ausschließlich mit dem vorkonfigurierten Workflow `Example_Workflow` arbeiten. Machen Sie sich trotzdem versuchsweise mit dem neuen Workflow-Editor vertraut.
 
 Menü `Projekte` / Tab `Workflows`
 
@@ -23,13 +23,13 @@ Menü `Projekte` / Tab `Workflows`
 * Workflow zeichnen und Angaben vornehmen
   - Startpunkt im Diagramm anklicken und das erscheinende rechteckige Symbol (`Append task`) auswählen. Ein neuer Task wurde ergänzt. Vergeben Sie einen Namen und im Reiter `Task` ggf. weitere Parameter.
   - Als Abschluss verwenden Sie den zweiten Kreis (mit mehr Linienbreite, `Create EndEvent`)
-  - Workflow mit dem Schalter als `Fertig` markieren und `Speichern`
+- Da das Speichern noch nicht funktioniert, klicken Sie dann auf `Abbrechen`
 
 ## Aufgabe: Produktionsvorlage anlegen
 
 Menü `Projekte` / Tab `Produktionsvorlagen`
 
-* Produktionsvorlagentitel: `Workshop20180910`
+* Produktionsvorlagentitel: `Vorlage20180910`
 * Projekt: `Workshop20180910`
 * Regelsatz: `SLUBDD`
 * Laufzettel: `default`
@@ -37,21 +37,32 @@ Menü `Projekte` / Tab `Produktionsvorlagen`
 * In Auswahlliste anzeigen: (ja)
 * Aktiv: (ja)
 
-Die neu erstellte Produktionsvorlage ist in der Liste unter dem Menüpunkt `Projekte`/ Tab `Produktionsvorlagen` erreichbar. Editieren Sie die Produktionsvorlage.
+## Aufgabe: Berechtigungen festlegen und Benutzergruppen zuweisen
 
-Im Tab `Aufgabenliste` können wir nun unseren Workflow, d.h. die bei jedem Vorgang in bestimmter Reihenfolge zu erledigenden Arbeitsschritte, definieren. Kitodo.Production nennt diese Arbeitsschritte `Aufgaben`.
+Die neu erstellte Produktionsvorlage ist anschließend in der Liste unter dem Menüpunkt `Projekte`/ Tab `Produktionsvorlagen` erreichbar. Editieren Sie die Produktionsvorlage und wechseln Sie in den Tab `Aufgabenliste`. Hier wurde die Konfiguration aus dem Workflow (`Example_Workflow`) übernommen.
 
+Über den Bearbeitungsbildschirm der einzelnen Aufgaben, können Sie Berechtigungen festlegen (z.B. Images lesen oder Metadaten bearbeiten) und Benutzer bzw. Benutzergruppen zuweisen. Legen Sie folgende Werte fest:
 
-## Hinweise
+* Scanning
+  * Rechte: `Images lesen` und `Images schreiben`
+  * Benutzergruppen: `Administration` und `Scanning`
+* QC
+  * Rechte: `Images lesen`
+  * Benutzergruppen: `Administration` und `QualityControl`
+* Structure and metadata
 
-* Wenn eine Gruppe von Personen Vorgänge anlegen soll, die nicht gleichzeitig Projektmanagement-Rechte (z.B. für Statistiken) besitzen darf, dann kann auch dafür eine eigene Aufgabe definiert werden.
-* Je nach Qualitätsanforderungen sind weitere dezidierte Aufgaben wie Qualitätskontrolle oder Nachbearbeitung vorzusehen.
-* Mit der Funktion `Automatische Aufgabe` lassen sich externe Scripte auf Kommandozeilenebene starten, beispielsweise eine OCR-Anbindung. Über Variablen lassen sich Informationen aus Kitodo.Production übermitteln, z.B. der Pfad zu den Bilddateien oder der Schrifttyp (Fraktur/Antiqua).
+  * Rechte: `Metadaten`
+  * Benutzergruppen: `Administration` und `Metadata`
+* Export DMS
+  * Rechte: `Export DMS`
+  * Benutzergruppen: `Administration` und `Projectmanagement`
 
-## Literatur
+## Ergebnis
 
-* Anwenderdokumentation Produktionsvorlage: [Produktionsvorlage](https://github.com/kitodo/kitodo-production/wiki/Produktionsvorlage) und [Bearbeitung Produktionsvorlage](https://github.com/kitodo/kitodo-production/wiki/Bearbeitung-Produktionsvorlage)
-* Anwenderdokumentation Workflow: [Aufgaben](https://github.com/kitodo/kitodo-production/wiki/Aufgaben), [Bearbeitung Aufgabe](https://github.com/kitodo/kitodo-production/wiki/Bearbeitung-Aufgabe) und [Scriptschritte](https://github.com/kitodo/kitodo-production/wiki/Scriptschritte)
+Wenn alle Einstellungen vollständig sind, dann wird im Menü `Projekte` / Tab `Produktionsvorlagen` nach Aufklappen der neu erstellten Produktionsvorlage `Vorlage2018910` Folgendes angezeigt:
+
+![Screenshot Produktionsvorlagen](screenshots/04_produktionsvorlage.png)
+
 
 
 

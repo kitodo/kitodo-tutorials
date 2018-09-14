@@ -32,11 +32,11 @@ Zum Anlegen eines Projektes gehen Sie wie folgt vor:
     * Zeitüberschreitung (ms): `3600000`
   * Reiter Mets Parameter: Hier müssen zunächst noch keine Einstellungen vorgenommen werden. Diese Parameter dienen der Generierung der METS-Dateien für die spätere Präsentation der Digitalisate. Wenn Sie mögen, können Sie die Bedeutung der einzelnen Felder in der Anwenderdokumentation für Kitodo 1.x [Bearbeitung Projekte](https://github.com/kitodo/kitodo-production/wiki/Bearbeitung-Projekte) nachschlagen.
 
-## Literatur
+## Ergebnis
 
-* Anwenderdokumentation Kitodo 1.x: [Abschnitt Projekt auf Seite Projektorganisation](https://github.com/kitodo/kitodo-production/wiki/Projektorganisation#projekt) und [Seite Projekt](https://github.com/kitodo/kitodo-production/wiki/Projekt) und [Bearbeitung Projekte](https://github.com/kitodo/kitodo-production/wiki/Bearbeitung-Projekte)
-* [Leitlinien der SBB für das Anlegen von Projekten](https://github.com/kitodo/kitodo-production/wiki/Staatsbibliothek-zu-Berlin---Preu%C3%9Fischer-Kulturbesitz#projekte)
+Nach Abschluss der Aufgabe sollte die Seite [Projekte](http://localhost:8080/kitodo/pages/projects.jsf) wie folgt aussehen:
 
+![Screenshot Projekte](screenshots/02_projekte.png)
 
 
 

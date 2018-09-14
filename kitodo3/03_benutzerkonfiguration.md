@@ -17,7 +17,9 @@ http://localhost:8080/kitodo/pages/users.jsf
 
 Menü `Benutzer` / Tab `Benutzergruppen`
 
-In den Beispieldaten sind bereits einige Benutzergruppen vorhanden. Editieren Sie diese und weisen Sie passende Berechtigungen zu.
+In den Beispieldaten sind bereits einige Benutzergruppen vorhanden. Im Bearbeitungsmodus können Sie Berechtigungen auf den drei Ebenen (global, mandantenspezifisch, projektspezifisch) zuweisen.
+
+**Achtung:** In der Entwicklerversion werden hier noch technische Bezeichnungen dargestellt, dies wird noch überarbeitet. Außerdem werden die Berechtigungen erst nach einem Neustart der Applikation wirksam (Anleitung zum Neustart in Abschnitt Fehlerbehebung am Ende von Seite  <a href="01_arbeitsumgebung.md">1. Arbeitsumgebung</a>). Im weiteren Verlauf des Workshops werden wir daher ausschließlich mit dem Adminaccount `testAdmin` arbeiten.
 
 ## Aufgabe: Benutzer konfigurieren
 
@@ -31,14 +33,16 @@ Menü `Benutzer` / Tab `Mandanten`
 
 Ändern Sie den Namen des Mandanten `Client_ChangeMe` in `Kitodo`
 
+## Ergebnis
+
+Nach Abschluss der Aufgaben sollte die Seite [Benutzer](http://localhost:8080/kitodo/pages/users.jsf) wie folgt aussehen:
+
+![Screenshot Benutzer](screenshots/03_benutzer.png)
+
 ## Hinweise
 
-* In der Standardkonfiguration nutzt Kitodo.Production eine eigene Nutzerdatenbank anstelle von LDAP. Die Einstellung wird in Kitodo.Production 2.1 in der Datei [goobi_config.properties ab Zeile 518](https://github.com/kitodo/kitodo-production/blob/56ae1cd8962ef1b64dfcee4a503533331b90f614/Goobi/config/goobi_config.properties#L518)  vorgenommen.
+* In der Standardkonfiguration nutzt Kitodo.Production eine eigene Nutzerdatenbank anstelle von LDAP. Die Einstellung wird in der Datei [kitodo_config.properties ab Zeile 500](https://github.com/kitodo/kitodo-production/blob/master/Kitodo/src/main/resources/kitodo_config.properties#L500)  vorgenommen. Die Datei liegt hier an der Stelle `/var/lib/tomcat8/webapps/kitodo/WEB-INF/classes/kitodo_config.properties`.
 * Wenn Sie weitere Mandanten anlegen und Benutzer diesen neuen Mandanten zuordnen, kann es in der Entwicklerversion erforderlich sein, dass Sie das Passwort des Benutzers neu setzen müssen, damit der Login weiterhin funktioniert. Lassen Sie den Account `Admin, test` (`testadmin`) unverändert, damit Sie sich nicht versehentlich aussperren.
-
-## Literatur
-
-* Anwenderdokumentation Kitodo 1.x: [Benutzergruppen](https://github.com/kitodo/kitodo-production/wiki/Benutzergruppen), [Benutzer](https://github.com/kitodo/kitodo-production/wiki/Benutzer)
 
 
 
