@@ -157,7 +157,7 @@ sudo chown -R tomcat8:tomcat8 /var/lib/tomcat8/
 
 Nach einigen Sekunden Startzeit sollte Solr nun unter der Adresse http://localhost:8080/solr erreichbar sein.
 
-![Zwischenergebnis Solr](/home/felix/kitodo/kitodo3/screenshots/12_installation-kitodo-presentation_ergebnis-solr.png)
+![Zwischenergebnis Solr](screenshots/12_installation-kitodo-presentation_ergebnis-solr.png)
 
 ## Extension Kitodo.Presentation (dlf) konfigurieren
 
