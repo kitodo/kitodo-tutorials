@@ -52,7 +52,7 @@ Kitodo.Production ist als Webapplikation in Java programmiert und kann plattform
 * Individuelle Erweiterungen durch Dienstleister möglich (vgl. Dokumentation der erledigten Projekte von [effective WEBWORK](https://github.com/kitodo/kitodo-production/wiki/effective-webwork-Dokumentation) und [Zeutschel](https://github.com/kitodo/kitodo-production/wiki/Zeutschel-Dokumentation))
 * [Medienserver mit Rechtemanagement](https://github.com/tuub/kitodo-mediaserver) (in Entwicklung an der TU Berlin)
 * [Unterstützung der IIIF Presentation API in Kitodo.Presentation](https://wiki.dnb.de/download/attachments/132748423/2018-04-11_KIMWS18_Meyer-IIIF%2BDFG-Viewer.pptx?version=1&modificationDate=1523606567000&api=v2) (in Entwicklung an der UB Leipzig)
-* Modul [Kitodo.Publication](https://www.kitodo.org/software/kitodopublication/) für Dokumentenserver
+* Modul [Kitodo.Publication](https://github.com/kitodo/kitodo-publication) für Dokumentenserver
 * Exportmechanismen zur Überführung von Daten in die [Langzeitarchivierung](https://www.kitodo.org/software/langzeitarchivierung/)
 
 ## Fragen zum Tutorial
